@@ -18,6 +18,12 @@ public:
 
 public slots:
     void muda(int i);
+    void aumentaLinha();
+    void aumentaPonto();
+    void aumentaQuadrado();
+    void diminuiLinha();
+    void diminuiPonto();
+    void diminuiQuadrado();
     void muda();
 
 signals:
